@@ -10,3 +10,4 @@ def number_to_string(num):
 def get_count(string):
     vowels = "a,e,i,o,u"
     return sum(1 for character in string if character in vowels) 
+
